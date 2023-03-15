@@ -69,7 +69,13 @@ public class MenuBean extends CoffeShop {
 	public void setPropertyMenuName(String propertyMenuName) {
 		PropertyMenuName = propertyMenuName.replaceAll(" ", "");
 	}
-
+	
+	
+	/*
+	 * This method gets the price list from the ingredients based on the recipe
+	 * required for the desired menu item .
+	 */
+	
 	public static MenuBean getMenuBean(Entry<Object, Object> obj, Map<String, IngredientBean> ingredientBeanMap,
 			Properties menuNames) {
 

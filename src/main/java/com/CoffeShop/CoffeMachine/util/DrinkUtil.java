@@ -31,6 +31,8 @@ public class DrinkUtil {
 
 	}
 
+	
+	/* This method refills the inventory */
 	public List<? extends CoffeShop> restock(List<? extends CoffeShop> coffeShopIngredients) {
 
 		List<IngredientBean> ingredientBeans ;
@@ -41,6 +43,11 @@ public class DrinkUtil {
 
 	}
 
+	
+	/*
+	 * Based on the menus and ingredients present in the coffe shop we wiil be
+	 * priniting in the console and will be reading the inputs 
+	 */
 	public void display(Map<String, List<? extends CoffeShop>> coffeShop, MenuBean menuBean) {
 
 		List<IngredientBean> ingredientBeans = new ArrayList<>();

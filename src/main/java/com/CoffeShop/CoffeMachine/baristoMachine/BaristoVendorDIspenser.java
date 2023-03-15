@@ -15,6 +15,12 @@ public class BaristoVendorDIspenser {
 		baristoMachine.start(mode);
 	}
 	
+	
+	/*
+	 * This method will be reading from the properties files related to the names of
+	 * menuItems, Ingrediants and passing it to machine console
+	 */
+	
 	public void start(String mode) {
 
 		

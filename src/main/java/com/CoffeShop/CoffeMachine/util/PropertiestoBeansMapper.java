@@ -26,6 +26,14 @@ public class PropertiestoBeansMapper {
 
 	}
 
+	
+	/*
+	 * This method is populated the menu and ingredient bean .dispense will be in
+	 * MenuBean level and quantity will b changes based on the each dispense method
+	 * called
+	 */
+	
+	
 	public Map<String, List<? extends CoffeShop>> populateMenuAndIngredientBean(Properties menuWithIngredientsProps,
 			Properties ingredientsProps, Properties menuNamesProps, Properties ingredientsNameStream) {
 

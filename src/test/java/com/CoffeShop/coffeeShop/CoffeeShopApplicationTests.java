@@ -57,7 +57,7 @@ class CoffeeShopApplicationTests {
 			e.printStackTrace();
 		}
 		assertEquals(9, ingredientbeans.get(0).getQuantity());
-		
+		assertEquals(9, ingredientbeans.get(6).getQuantity());
 		assertEquals(8, ingredientbeans.get(3).getQuantity());
 		assertEquals(9, ingredientbeans.get(8).getQuantity());
 	}

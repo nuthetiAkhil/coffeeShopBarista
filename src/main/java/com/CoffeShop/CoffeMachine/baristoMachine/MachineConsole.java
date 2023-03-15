@@ -16,7 +16,13 @@ import com.CoffeShop.CoffeMachine.util.DrinkUtil;
 public class MachineConsole {
 
 	public static Map<String, List<? extends CoffeShop>> coffeShopTest;
- 
+	
+	
+	/*
+	 * This method receives the inputs from the property files and stores them i the
+	 * form Map .starts the input reader to read the inputs from the user
+	 */
+	
 	public void start(Properties menuWithIngredientsProps, Properties IngredientsProps, Properties menuNamesProps,
 			Properties ingredientsNameProps, String mode) {
 
